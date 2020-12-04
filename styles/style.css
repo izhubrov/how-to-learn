@@ -259,6 +259,8 @@
   top: 50%;
   right: 48px;
   text-decoration: none;
+  margin: 0;
+  padding: 0;
 }
 
 .feynman__link:hover{
@@ -360,6 +362,7 @@
   flex-direction: column;
   justify-content: space-between;
   list-style: none;
+  align-items: flex-start;
 }
 
 .footer__column-link {
@@ -367,6 +370,8 @@
   align-items: center;
   color:white;
   text-decoration: none;
+  margin: 0;
+  padding: 0;
 }
 
 .footer__column-link:hover {
