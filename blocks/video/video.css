@@ -1,7 +1,6 @@
 .video {
   margin:0;
   padding: 100px 0 0;
-  background-color: rgb(140, 173, 162);
   display: flex;
   justify-content: center;
   align-items: center;
