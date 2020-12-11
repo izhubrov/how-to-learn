@@ -98,6 +98,12 @@
 
 /*выше подключили стили для блока Принципы обучения от Кауфмана*/
 
+@import url(../blocks/resources/resources.css);
+@import url(../blocks/resources/__logo-zone/resources__logo-zone.css);
+@import url(../blocks/resources/__logo/resources__logo.css);
+
+/*выше подключили стили для блока с ссылками на полезные ресурсы*/
+
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__columns/footer__columns.css);
 @import url(../blocks/footer/__column/footer__column.css);
