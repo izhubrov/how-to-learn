@@ -3,7 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Страница про эффективные подходы к обучению">
+  <meta name="keywords" content="Техники обучения Барбары Оакли, TED, Фейнман, Джош Кауфман, Салман Хан, Arzamas, N1, Strelka, Полка">
+  <meta name="author" content="Иван Жубров">
   <link rel="stylesheet" href="./pages/index.css">
+  <link rel="icon" href="./images/kaufman/kaufman-triangle.svg">
   <title>Научиться учиться</title>
 </head>
 <body>
@@ -12,7 +16,7 @@
       <img class="logo logo_place_header" src="./images/logo/logo_place_header.svg" alt="Логотип Яндекс Практикум">
       <h1 class="header__title">Научиться учиться</h1>
       <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
-        <a href="#" class="header__link">Узнать &rarr;</a>
+        <a href="#techniques" target="_self" class="header__link">Узнать &rarr;</a>
       </p>
       <img class="header__main-illustration" src="./images/header/header-image.png" alt="Фрагмент картины художника Федора Решетникова Опять двойка">
       <div class="header__square-pic rotation"> </div>
@@ -30,7 +34,7 @@
         </article>
       </div>
 
-      <section class="techniques content__techniques">
+      <section class="techniques content__techniques" id="techniques">
         <h2 class="section-title">Техники обучения</h2>
         <p class="section-subtitle">Пять практик от Барбары Оакли</p>
         <ul class="cards">
@@ -92,7 +96,7 @@
       <section class="feynman">
         <h2 class="feynman__title">Метод Фейнмана</h2>
         <p class="feynman__subtitle">Выучить и не забыть.</p>
-        <a class="feynman__link" href="#">Подробнее &rarr;</a>
+        <a class="feynman__link" href="https://lifehacker.ru/metod-fejnmana/" target="_blank">Подробнее &rarr;</a>
         <img class="feynman__portrait" src="./images//feynman/feynman.png" alt="Портрет Ричарда Филлипса Фейнмана">
       </section>
 
@@ -149,7 +153,7 @@
           <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
           <div class="khan__book-container">
             <img class="khan__book-pic" src="./images/khan/khan-book.jpg" alt="Изображение обложки книги Салмана Хана Весь мир школа">
-            <a class="khan__buy-link" href="#">Купить книгу &rarr;</a>
+            <a class="khan__buy-link" href="https://www.labirint.ru/books/483575/" target="_blank">Купить книгу &rarr;</a>
           </div>
         </article>
       </div>
@@ -202,16 +206,24 @@
         <div class="kaufman__triangle rotation"></div>
       </section>
 
-      <section class="resources">
+      <nav class="resources">
         <h2 class="section-title">Полезные ресурсы</h2>
         <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
-        <nav class="resources__logo-zone">
-          <img class="resources__logo" src="./images/resources/resources-arzamas.svg" alt="Логотип сайта Арзамас">
-          <img class="resources__logo" src="./images/resources/resources-n1.svg" alt="Логотип сайта N+1">
-          <img class="resources__logo" src="./images/resources/resources-strelka.svg" alt="Логотип сайта Стрелка">
-          <img class="resources__logo" src="./images/resources/resources-polka.svg" alt="Логотип сайта Полка">
-        </nav>
-      </section>
+        <ul class="resources__logo-zone">
+          <li>
+            <a href="https://arzamas.academy/" target="_blank"><img class="resources__logo" src="./images/resources/resources-arzamas.svg" alt="Логотип сайта Арзамас"></a>
+          </li>
+          <li>
+            <a href="https://nplus1.ru/" target="_blank"><img class="resources__logo" src="./images/resources/resources-n1.svg" alt="Логотип сайта N+1"></a>
+          </li>
+          <li>
+            <a href="https://strelka.com/ru" target="_blank"><img class="resources__logo" src="./images/resources/resources-strelka.svg" alt="Логотип сайта Стрелка"></a>
+          </li>
+          <li>
+            <a href="https://polka.academy/" target="_blank"><img class="resources__logo" src="./images/resources/resources-polka.svg" alt="Логотип сайта Полка"></a>
+          </li>
+        </ul>
+      </nav>
     </main>
     <footer class="footer">
       <div class="footer__columns">
@@ -222,22 +234,22 @@
         <nav class="footer__column footer__column_content_info">
           <h4 class="footer__column-heading">О практикуме</h4>
           <ul class="footer__column-links">
-            <li> <a class="footer__column-link" href="#">Главная</a> </li>
-            <li> <a class="footer__column-link" href="#">Концепция</a> </li>
-            <li> <a class="footer__column-link" href="#">Наставники</a> </li>
+            <li> <a class="footer__column-link" href="https://praktikum.yandex.ru/" target="_blank">Главная</a> </li>
+            <li> <a class="footer__column-link" href="https://praktikum.yandex.ru/" target="_blank">Концепция</a> </li>
+            <li> <a class="footer__column-link" href="https://praktikum.yandex.ru/" target="_blank">Наставники</a> </li>
           </ul>
         </nav>
         <nav class="footer__column footer__column_content_social">
           <h4 class="footer__column-heading">Соцсети</h4>
           <ul class="footer__column-links">
             <li>
-              <a class="footer__column-link" href="#"> <img class="footer__social-icon" src="./images/footer/facebook_color_white.svg" alt="Иконка Facebook">Facebook</a>
+              <a class="footer__column-link" href="https://www.facebook.com/yandex.praktikum" target="_blank"> <img class="footer__social-icon" src="./images/footer/facebook_color_white.svg" alt="Иконка Facebook">Facebook</a>
             </li>
             <li>
-              <a class="footer__column-link" href="#"> <img class="footer__social-icon" src="./images/footer/vk_color_white.svg" alt="Иконка ВКонтакте">ВКонтакте</a>
+              <a class="footer__column-link" href="https://vk.com/yandex.praktikum" target="_blank"> <img class="footer__social-icon" src="./images/footer/vk_color_white.svg" alt="Иконка ВКонтакте">ВКонтакте</a>
             </li>
             <li>
-              <a class="footer__column-link" href="#"> <img class="footer__social-icon" src="./images/footer/instagram_color_white.svg" alt="Иконка Instagram">Instagram</a>
+              <a class="footer__column-link" href="https://www.instagram.com/yndx.praktikum/" target="_blank"> <img class="footer__social-icon" src="./images/footer/instagram_color_white.svg" alt="Иконка Instagram">Instagram</a>
             </li>
           </ul>
         </nav>
