@@ -1,9 +1,10 @@
 .cards {
   margin:0;
-  padding:0;
+  padding:60px 0 0;
   width: 920px;
-  display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
+  display: grid;
+  column-gap: 100px;
+  row-gap: 60px;
+  grid-template-columns: repeat(3,1fr);
   list-style: none;
 }
