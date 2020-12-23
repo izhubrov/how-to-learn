@@ -1,5 +1,13 @@
 .video__iframe {
+<<<<<<< HEAD
   margin: 0 20px 0;
+=======
+  border: 0;
+  margin: 0 20px 0 0;
+  width: 515px;
+  height: 316px;
+  transform: translateY(50px);
+>>>>>>> 0ea1cdd4d4a064d0df6ab1c0f6894bfabc1a02c8
 }
 
 .video__iframe:last-of-type {
